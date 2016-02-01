@@ -1,0 +1,21 @@
+{
+    "name": "ghunti/haproxy-php",
+    "description": "Haproxy monitor tool written in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gonçalo Queirós",
+            "email": "mail@goncaloqueiros.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ghunti\\HaproxyPHP\\": "src/"
+        },
+        "files": ["functions.php"]
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "vlucas/phpdotenv": "^2.2"
+    }
+}
